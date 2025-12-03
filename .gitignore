@@ -1,0 +1,57 @@
+# ===== GENERAL LOGS =====
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== DEPENDENCIES =====
+node_modules/
+buddybot-web/node_modules/
+Gen-AI/node_modules/
+
+# ===== BUILD & CACHE =====
+dist/
+dist-ssr/
+build/
+.cache/
+.vite/
+buddybot-web/.vite/
+buddybot-web/.cache/
+
+# ===== ENV / SECRETS =====
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# ===== ANTIGRAVITY GENERATED FILES =====
+antigravity/
+.agents/
+.agents*
+*.agent
+*.workflow
+metadata.json
+
+# ===== EDITOR & OS FILES =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== FRONTEND OUTPUT =====
+buddybot-web/dist/
+buddybot-web/build/
+
+# ===== ANY EXTRA GENERATED FILES =====
+*.md.html
